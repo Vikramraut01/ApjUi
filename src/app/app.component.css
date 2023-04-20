@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: rgba(95, 158, 160, 0.582);
+    min-height: 100vh;
+    border: 10px solid rgba(100, 148, 237, 0.849);
+}
+.contect
+{
+    max-width: 900px;  
+margin: 0 auto;
+}
+.top
+{
+    margin: 100px;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.top h4
+{
+    text-align: end;
+    font-size: 30px;
+}
+.imgcont
+{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgcont,img
+{
+   width: 300px;
+   height: 280px;
+}
+.about h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.about p{
+    font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 1.2px;
+   text-align: justify;
+}
+.biosec h2{
+    margin-top: 50px;   
+    margin-bottom: 20px; 
+}
+.biosec ul{
+    margin: 15px 0px;
+}
+.biosec li{
+    margin-bottom: 15px;
+}
+footer{
+    margin: 15px 0px;
+    text-align: end;
+}
